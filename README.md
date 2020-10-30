@@ -6,6 +6,10 @@
 
 ![alt text](https://github.com/jenizar/excel-post-data-to-google-spreadsheet/blob/master/screenshot2.PNG)
 
+tutor:
+
+[![Watch the video](http://img.youtube.com/vi/2jZGhKugK70/0.jpg)](https://youtu.be/P5LsVyg9juY)
+
 Requirements:
 
 Install selenium basic (see references)
