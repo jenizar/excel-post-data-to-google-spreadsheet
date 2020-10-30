@@ -2,6 +2,7 @@
  Microsoft Excel post data to Google Spreadsheet with Selenium
 
 Requirements:
+
 Install selenium basic (see references)
 
 step by step:
@@ -13,6 +14,7 @@ step by step:
 5. Assign reference to Selenium Library and Insert macro coding
 
 Sub Button1_Click()
+
 Dim MyParm As New Webdriver
 
 MyParm.Start "chrome", "http://localhost/getData/salesorder.html"
@@ -25,6 +27,7 @@ MyParm.FindElementByName("entry.xxx").SendKeys (Range("c2").Value)
 MyParm.FindElementByName("entry.xxx").SendKeys (Range("d2").Value)
 MyParm.FindElementByName("entry.xxx").SendKeys (Range("e2").Value)
 MyParm.FindElementByXPath("//button[@type='submit']").Click
+
 End Sub
 
 6. Test
