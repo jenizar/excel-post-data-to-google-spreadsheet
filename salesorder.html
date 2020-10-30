@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Excel post data to Google Sheet</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Sales Order</h2>
+  <p>Form control: input:</p>
+  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScWHcWHQX9nTBlYp7g-nCH9RZFYXbaykrl18HEH47RfO8J4zQ/formResponse" target="_self" method="POST">   
+    <div class="form-group">
+      <label for="cust1">Customer ID:</label>
+      <input type="text" class="form-control" id="cust1" name="entry.782126263">
+    </div>
+    <div class="form-group">
+      <label for="cust2">Customer Name:</label>
+      <input type="text" class="form-control" id="cust2" name="entry.160219907">
+    </div>
+    <div class="form-group">
+      <label for="prod1">Product ID:</label>
+      <input type="text" class="form-control" id="prod1" name="entry.1551815143">
+    </div>
+    <div class="form-group">
+      <label for="prod2">Product Name:</label>
+      <input type="text" class="form-control" id="prod2" name="entry.1418070079">
+    </div>   	
+    <div class="form-group">
+      <label for="ord1">Order Date:</label>
+      <input type="text" class="form-control" id="ord1" name="entry.1828020867">
+    </div>      
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
+
+
