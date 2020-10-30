@@ -1,6 +1,11 @@
 # excel post data to Google Spreadsheet
  Microsoft Excel post data to Google Spreadsheet with Selenium
 
+![alt text](https://github.com/jenizar/excel-post-data-to-google-spreadsheet/blob/master/screenshot1.PNG)
+
+
+![alt text](https://github.com/jenizar/excel-post-data-to-google-spreadsheet/blob/master/screenshot2.PNG)
+
 Requirements:
 
 Install selenium basic (see references)
